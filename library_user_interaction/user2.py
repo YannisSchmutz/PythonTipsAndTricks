@@ -1,6 +1,13 @@
+#!/usr/bin/python3
 
-from library2 import Base
+from myLibrary2 import Base
 
-class Test(Base):
-  def bar(self):
-    return 'bar' 
+
+class ValidTest(Base):
+    def bar(self):
+        return 'bar'
+
+
+class InvalidTest(Base):
+    def not_bar(self):
+        return 'not_bar'

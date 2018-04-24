@@ -1,0 +1,20 @@
+
+These examples show, how to check if a specific child (right side), which uses a library (left side)
+has a specific method implemented or not. For example if the "left side" relies on this (child's)method.
+
+Normally, if this method was non-existent, the code would only fail at runtime when this method-call is reached.
+But the examples in this chapter show how to check right after the execution of the program.
+
+
+("Left side")      ("Right side")
++-----------+     +---------+
+| myLibrary | <-- | user    |
+| (parent)  |     | (child) |
++-----------+     +---------+
+
+
+Lookup table:
+- metaclass, meta class
+- sw design
+- sw stability
+- dependability
